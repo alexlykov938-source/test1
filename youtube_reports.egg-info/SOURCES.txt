@@ -1,0 +1,17 @@
+README.md
+pyproject.toml
+tests/test_clickbait.py
+tests/test_main.py
+tests/test_reader.py
+youtube_reports/__init__.py
+youtube_reports/main.py
+youtube_reports/reader.py
+youtube_reports.egg-info/PKG-INFO
+youtube_reports.egg-info/SOURCES.txt
+youtube_reports.egg-info/dependency_links.txt
+youtube_reports.egg-info/entry_points.txt
+youtube_reports.egg-info/requires.txt
+youtube_reports.egg-info/top_level.txt
+youtube_reports/reports/__init__.py
+youtube_reports/reports/base.py
+youtube_reports/reports/clickbait.py

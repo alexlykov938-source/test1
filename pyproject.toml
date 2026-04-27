@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "youtube-reports"
+version = "0.1.0"
+description = "CLI tool for generating reports from YouTube video metrics CSV files."
+requires-python = ">=3.11"
+dependencies = ["tabulate"]
+
+[project.scripts]
+youtube-reports = "youtube_reports.main:main"
+
+[tool.pytest.ini_options]
+testpaths = ["youtube_reports/tests"]
+
+[tool.ruff]
+line-length = 88

@@ -1,0 +1,6 @@
+Metadata-Version: 2.4
+Name: youtube-reports
+Version: 0.1.0
+Summary: CLI tool for generating reports from YouTube video metrics CSV files.
+Requires-Python: >=3.11
+Requires-Dist: tabulate
